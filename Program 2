@@ -1,8 +1,9 @@
 import java.util.*;
 public class Main{
   public void studentage(){
-    int age = 60;
-    age = age + 5;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Please Enter the age");
+    int age = sc.nextInt();
     System.out.println("Age is "+age);
     }
   public static void main(String args[]){
