@@ -2,12 +2,12 @@ import java.util.*;
 public class Main{
   public void studentage(int age){
     Scanner sc = new Scanner(System.in);
-    age = age + 5;
+    age = age + 10;
     System.out.println("Age is "+age);
     }
   public static void main(String args[]){
   Main m1 = new Main();
-  m1.studentage(20);
+  m1.studentage(15);
   }
   }
     
